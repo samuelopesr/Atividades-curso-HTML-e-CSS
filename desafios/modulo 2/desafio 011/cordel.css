@@ -1,10 +1,15 @@
 @charset "UTF-8"
 
+@font-face {
+    font-family:'cordelmo';
+    src: url("fonte/cordel/xilosa_.ttf") format('truetype');
+}
 
 @font-face {
-    font-family: 'cordel';
-    src: url("fonte/cordel/EldesCordel-Demo.otf") format('opentype');
+    font-family:'escrita';
+    src: url("fonte/escrita/Delight\ Coffee.ttf") format('truetype');
 }
+
 
 *{
     margin: 0px;
@@ -24,7 +29,7 @@ header{
 header h1{
     color: white;
     text-align: center;
-    font-family: 'cordel';
+    font-family: 'cordelmo';
     font-size: 3.5em;
     padding-top: 50px;
    
