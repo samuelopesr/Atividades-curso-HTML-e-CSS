@@ -1,0 +1,45 @@
+@charset "UTF-8"
+
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap');
+
+@font-face {
+    font-family: 'cordel';
+    src: url("fonte/cordel/EldesCordel-Demo.otf") format('opentype');
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+   }
+
+
+body{
+    background-color: rgb(255, 255, 255);
+
+}
+
+header{
+    background-color: black;
+}
+ 
+header h1{
+    color: white;
+    text-align: center;
+    font-family: 'cordel';
+    font-size: 3.5em;
+    padding-top: 50px;
+   
+}
+header p{
+    text-align: center;
+    color: white;
+    padding-bottom: 50px;
+    
+}
+header a{
+    color: white;
+}
+p{
+    font-family: 'Kalam', cursive;
+    
+}
