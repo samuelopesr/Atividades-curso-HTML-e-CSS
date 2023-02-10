@@ -27,11 +27,12 @@ header h1{
     color: white;
     text-align: center;
     font-family: 'cordel';
-    font-size: 3.5em;
+    font-size: 4.5em;
     padding-top: 50px;
    
 }
 header p{
+    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     color: white;
     padding-bottom: 50px;
@@ -41,6 +42,6 @@ header a{
     color: white;
 }
 p{
-    font-family: 'Kalam', cursive;
+    font-family: 'escrita';
     
 }
