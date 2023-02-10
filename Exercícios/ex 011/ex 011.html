@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midia em HTML 5</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <p>O objetivo desse site é abrir várias imagens e dispositivos diferentes, ou simplesmente aumente ou diminua a imagem no seu navegador</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="Imagens/pequena.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="Imagens/media.png" type="image/png">
+        <img src="Imagens/grande.png" alt="Foto Grande (G)">
+    </picture>
+
+    <h1>Inserindo Áudio no Site</h1>
+    <p>
+        Aprendendo a reproduzir áudio em HTML 5, vejam o primeiro exemplo
+    </p>
+    <audio src="Audios/LOFI SEM DIREITOS AUTORAIS - NO COPYRIGHT - VLOGS- MUSICA PARA VIDEOS - KITSUNE.mp3" controls autoplay></audio>
+    <p>
+        vejam o segundo exemplo
+    </p>
+    <audio preload= "metadata" controls loop>
+       <source src="Audios/LOFI SEM DIREITOS AUTORAIS - NO COPYRIGHT - VLOGS- MUSICA PARA VIDEOS - KITSUNE.mp3" type="audio/mpeg">
+       <source src="Audios/LOFI SEM DIREITOS AUTORAIS - NO COPYRIGHT - VLOGS- MUSICA PARA VIDEOS - KITSUNE.ogg" type="audio/ogg">
+       <source src="Audios/LOFI SEM DIREITOS AUTORAIS - NO COPYRIGHT - VLOGS- MUSICA PARA VIDEOS - KITSUNE.wav" type="audio/wav">
+       <p>infelizmente seu navegador não consegue reproduzir áudio. <a href="Audios/LOFI SEM DIREITOS AUTORAIS - NO COPYRIGHT - VLOGS- MUSICA PARA VIDEOS - KITSUNE.mp3"> clique aqui para baixar</a></p> 
+    </audio>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h1>Formato de video HTML 5 (exercício 12 no mesmo site do ex 11 para ter todas as midias em um lugar</h1>
+    <p>
+        Aqui iremos ver exemplos de videos rodando hospedados localmente, estão no meu prórprio servidor
+    </p>
+    <video src="videos/meu video.mp4" width="400" controls></video>
+    <h2>
+        Veja o outro exemplo
+    </h2>
+    <br>
+    <br>
+    <video controls width="400" poster="Imagens/thumb.jpeg">
+           <source src="videos/Meu Video convertido2.mp4" type="video/mp4">
+           <source src="videos/Meu Video convertido1.m4v" type="video/mp4">
+           <source src="videos/Meu Video convertido2.webm" type="video/webm">
+           <source src="videos/meu-videoOGV.ogv" type="video/ogg">
+           <br>
+           <p>Seu navegador não tem compatibilidade com reprodução de videos</p>
+    </video>
+
+    <h1>Aqui teremos um exemplo compatível e mais barato dentro da hospedagem do site, inserindo do youtube </h1>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/2iaPuUFIyMo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
+
+</body>
+</html>
