@@ -34,15 +34,21 @@
     <table>
         <caption>Tabela com grupos e nomes</caption> 
         <thead>
+            <tfoot>
+                <tr>
+                    <th colspan="4" scope="row">Total</th>
+                    <td>1000</td>
+                </tr>
+            </tfoot>
             <tr>
-                <th>Grupo</th>
-                <th>Nome</th>
-                <th colspan="3">Filmes</th>
+                <th scope="col">Grupo</th>
+                <th scope="col">Nome</th>
+                <th colspan="3" scope="colgroup">Filmes</th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <th rowspan="3">Mulheres</th>
+                <th rowspan="3" scope="rowgroup">Mulheres</th>
                     <td>Ana</td>
                     <td>Alien</td>
                     <td>Rambo</td>
@@ -61,7 +67,7 @@
                 </tr>
             </tr>
             <tr>
-                <th rowspan="4">Homens</th>
+                <th rowspan="4" scope="rowgroup">Homens</th>
             </tr>
             <tr>
                 <td>Bruno</td>
