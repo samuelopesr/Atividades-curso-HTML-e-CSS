@@ -47,35 +47,66 @@ section#rede-sociais img{
     margin: 10px;
     border-radius: 50%;
     box-sizing: border-box;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.623);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.801);
     display: flexbox;    
 }
 section#rede-sociais{
     padding-top: 90px;
     text-align: center;
+    
 }
 #rede-sociais #git:hover{
-    border: 5px solid greenyellow;
+    border: 5px solid rgba(172, 255, 47, 0.623);
     transform: translate(-5px, -5px);
     box-shadow: 5px 5px 10px black;
+    transition-duration: 0.5s;
+    transition-delay: 0.2s;
+}
+#rede-sociais #git{
+    transition-duration: 0.5s;
+    transition-delay: 0.2s;
 }
 #rede-sociais #tube:hover{
-    border: 5px solid red;
+    border: 5px solid rgba(255, 0, 0, 0.514);
     transform: translate(-5px, -5px);
     box-shadow: 5px 5px 10px black;
+    transition-duration: 0.5s;
+    transition-delay: 0.2s;
+}
+#rede-sociais #tube{
+    transition-duration: 0.5s;
+    transition-delay: 0.2s;
 }
 #rede-sociais #home:hover{
     border: 5px solid gray;
     transform: translate(-5px, -5px);
     box-shadow: 5px 5px 10px black;
+    transition-duration: 0.5s;
+    transition-delay: 0.2s;
+}
+#rede-sociais #home{
+    transition-duration: 0.5s;
+    transition-delay: 0.2s;
 }
 #rede-sociais #instagram:hover{
-    border: 5px solid rgb(104, 13, 250);
+    border: 5px solid rgba(104, 13, 250, 0.507);
     transform: translate(-5px, -5px);
     box-shadow: 5px 5px 10px black;
+    transition-duration: 0.5s;
+    transition-delay: 0.2s;
+}
+#rede-sociais #instagram{
+    transition-duration: 0.5s;
+    transition-delay: 0.2s;
 }
 #rede-sociais #face:hover{
-    border: 5px solid rgb(49, 49, 238);
+    border: 5px solid rgba(49, 49, 238, 0.603);
     transform: translate(-5px, -5px);
     box-shadow: 5px 5px 10px black;
+    transition-duration: 0.5s;
+    transition-delay: 0.2s;
+}
+#rede-sociais #face{
+    transition-duration: 0.5s;
+    transition-delay: 0.2s;
 }
