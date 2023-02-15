@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 *{
-    margin: 0px;
+    margin: px;
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -9,7 +9,7 @@
 html, body{
     height: 100vh;
     width: 100vw;
-    background-color: black;
+   
 }
 body{
     background: url(../imagens/fundo-madeira.jpg) no-repeat top center ;
@@ -27,10 +27,13 @@ section#telefone{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    
 
-    height: 627px;
-    width: 311px;
+    height: 625px;
+    width: 306px;
     background: url(../imagens/frame-iphone.png) no-repeat;
+    box-shadow: 5px 5px 5px black;
+    border-radius: 55px ;
 }
 iframe#tela{
     position: relative;
@@ -38,4 +41,41 @@ iframe#tela{
     left: 22px;
     width: 269px;
     height: 471px;
+}
+section#rede-sociais img{
+    width: 60px;
+    margin: 10px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.623);
+    display: flexbox;    
+}
+section#rede-sociais{
+    padding-top: 90px;
+    text-align: center;
+}
+#rede-sociais #git:hover{
+    border: 5px solid greenyellow;
+    transform: translate(-5px, -5px);
+    box-shadow: 5px 5px 10px black;
+}
+#rede-sociais #tube:hover{
+    border: 5px solid red;
+    transform: translate(-5px, -5px);
+    box-shadow: 5px 5px 10px black;
+}
+#rede-sociais #home:hover{
+    border: 5px solid gray;
+    transform: translate(-5px, -5px);
+    box-shadow: 5px 5px 10px black;
+}
+#rede-sociais #instagram:hover{
+    border: 5px solid rgb(104, 13, 250);
+    transform: translate(-5px, -5px);
+    box-shadow: 5px 5px 10px black;
+}
+#rede-sociais #face:hover{
+    border: 5px solid rgb(49, 49, 238);
+    transform: translate(-5px, -5px);
+    box-shadow: 5px 5px 10px black;
 }
