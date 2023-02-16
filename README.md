@@ -7,4 +7,4 @@
 
  <a href="https://samucspop.github.io/Atividades-curso-HTML-e-CSS/desafios/modulo%204/desafio%2014/Desafio014.html" target='_blank'> DESAFIO 14 </a>
 
-<a href="https://samucspop.github.io/Atividades-curso-HTML-e-CSS//Exercícios/ex%20026/mq002/index.html" target='_blank'>Teste media query</a>
+
