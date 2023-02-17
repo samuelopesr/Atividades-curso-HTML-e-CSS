@@ -86,13 +86,19 @@ div.info{
 
 }
 div#pass{
-    margin-top: 5px;
+    margin-top: 10px;
+}
+div#host{
+    margin-top: 10px;
 }
 form{
     padding-top: 10px;
 }
 input.npt{
     border-radius: 10px;
-    height: 35px;
+    height: 45px;
+    margin-left: 30px;
+}
+.material-symbols-outlined{
     
 }
