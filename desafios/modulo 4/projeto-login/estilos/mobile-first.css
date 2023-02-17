@@ -14,7 +14,7 @@ grandes-telas: acima de 1200px
 :root{
 --cor1: #8C593B;
 --cor2: #BF8756;
---cor3: #e9dd9b;
+--cor3: #f1edd5;
 --cor4: #402F25;
 }
 
@@ -26,14 +26,14 @@ grandes-telas: acima de 1200px
 }
 
 body{
-   background-color: #8C593B;
+   background-color: #7c533a;
 }
 main{   
-        position: absolute;
-        width: 70vw;
-        height: 70vh;
-        margin-top: 15vh;
-        margin-left: 17.5vw;
+        position: relative;
+        margin: auto;
+        width: 400px;
+        height: 700px;
+        bottom: 300px;
         background-color: var(--cor3);
         text-align: center;
         border-radius: 35px;
@@ -45,16 +45,16 @@ section#Login{
 }
 section#Login > div#img{
     background-color: black;
-    background-image: url(../img/certo.jpg);
+    background-image: url(../img/pexels-oshko-rush-15310247.jpg);
     background-position: left bottom;
-    background-attachment: inherit;
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border-radius: 35px 35px 0px 0px;
     position: absolute;
     top: 0%;
-    width: 70vw;
-    height: 37vh;
+    width: 400px;
+    height: 350px;
     
 }
 div#form{
