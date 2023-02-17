@@ -28,10 +28,10 @@ html{
 }
 main{   
         position: absolute;
-        width: 70vw;
-        height: 90vh;
-        top: 4%;
-        left: 16.2%;
+        width: 60vw;
+        height: 80vh;
+        margin-top: 10vh;
+        margin-left: 22vw;
         background-color: aqua;
         text-align: center;
         border-radius: 35px;
@@ -44,7 +44,7 @@ section#Login > div#img{
     background-color: black;
     background-image: url(../img/certo.jpg);
     position: absolute;
-    width: 70vw;
+    width: 60vw;
     
 }
 div#form{
