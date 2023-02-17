@@ -30,10 +30,11 @@ body{
 }
 main{   
         position: absolute;
-        width: 400px;
-        height: 700px;
-        top: 7%;
-        left: 10.5%;
+        width: 300px;
+        height: 500px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
         background-color: var(--cor3);
         text-align: center;
         border-radius: 35px;
@@ -41,20 +42,20 @@ main{
 }
 section#Login{
     
-    margin-top: 90%;
+ 
 }
 section#Login > div#img{
     background-color: black;
-    background-image: url(../img/certo.jpg);
+    background-image: url(../img/pexels-oshko-rush-15310247.jpg);
     background-position: left bottom;
-    background-attachment: inherit;
+    background-attachment: fixed;
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: cover;
     border-radius: 35px 35px 0px 0px;
     position: absolute;
     top: 0%;
-    width: 400px;
-    height: 43vh;
+    width: 300px;
+    height: 250px;
     
 }
 div#form{
