@@ -1,7 +1,75 @@
 @charset "UTF-8";
 /*demais midias*/
+/*tipical device breakpoints
+---------------------------------------------
+pequenas telas: até 600px
+celular: 600px até 768px
+tablet: 768px até 992px
+desktop: 992px até 1200px
+grandes telas: acima de 1200px
+----------------------------------------------
+*/
 
 @media print {
-    
+    /* IMPRESSAO */
+    *{
+        font-family: 'Courier New', Courier, monospace;
+    }
+    main h1{
+        text-shadow: none;
+        color: black;
+    }
+    main{
+        width: 90vw;
+        border: 2px solid black;
+    }
+    main::after{
+        content: 'impressão feita através da tecnica mobile first';
+        text-decoration: overline;
+    }
+    img#phone{display: none;}
+    img#tablet{display: none;}
+    img#print{display: block;}
+    img#pc{display: none;}
+    img#tv{display: none;}
 }
 
+@media screen and (min-width: 768px) and (max-width:992px) {
+
+    /* TABLET */
+    body {
+        background-image: url(../img/back-tablet.jpg);
+    }
+    img#phone{display: none;}
+    img#tablet{display: block;}
+    img#print{display: none;}
+    img#pc{display: none;}
+    img#tv{display: none;}
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    /* DESKTOP */
+    body{
+        background-image: url(../img/back-pc.jpg);
+    }
+    img#phone{display: none;}
+    img#tablet{display: none;}
+    img#print{display: none;}
+    img#pc{display: block;}
+    img#tv{display: none;}
+}
+
+@media screen and (min-width: 1200px) {
+    /* GRANDES TELAS */
+    body{
+        background-image: url(../img/back-tv.jpg);
+    }
+    main{
+        width: 50vw;
+    }
+    img#phone{display: none;}
+    img#tablet{display: none;}
+    img#print{display: none;}
+    img#pc{display: none;}
+    img#tv{display: block;}
+}
