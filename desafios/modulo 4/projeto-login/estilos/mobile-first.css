@@ -20,17 +20,16 @@
 html{
     background-color: var(--cor3);
 }
-
-section#Login{
-    background-color: aqua;
-    position: absolute;
-    height: 100px;
-    width: 400px;
-    left: 10%;
-    top: 30%;    
+main{
+        background-color: aqua;
+        margin: auto;
+        text-align: center;
+        width: 67vw;
+        height: 40vh;
 }
-section#Login > div#bloco{
-    background-image: url(../img/certo.jpg);
-        background-color: black;
-        background-position: center center;
+section#Login{
+    margin-top: 100%;
+}
+section#Login > div#img{
+    background-color: black;
 }
