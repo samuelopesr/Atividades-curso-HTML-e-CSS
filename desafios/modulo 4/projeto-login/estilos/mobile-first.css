@@ -30,6 +30,7 @@ main{
         position: absolute;
         width: 70vw;
         height: 90vh;
+        top: 4%;
         left: 16.2%;
         background-color: aqua;
         text-align: center;
