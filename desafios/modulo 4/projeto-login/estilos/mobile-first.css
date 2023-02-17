@@ -19,7 +19,7 @@ grandes-telas: acima de 1200px
 
 *{
     margin: 0px;
-    padding: 0px;
+    padding: px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -37,8 +37,16 @@ main{
         border-radius: 35px;
 }
 section#Login{
+    
     margin-top: 90%;
 }
 section#Login > div#img{
     background-color: black;
+    background-image: url(../img/certo.jpg);
+    position: absolute;
+    width: 70vw;
+    
+}
+div#form{
+    padding-top: 20px;
 }
