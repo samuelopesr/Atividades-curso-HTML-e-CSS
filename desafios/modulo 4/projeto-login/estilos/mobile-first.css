@@ -14,28 +14,30 @@ grandes-telas: acima de 1200px
 :root{
 --cor1: #8C593B;
 --cor2: #BF8756;
---cor3: #dbd5b4;
+--cor3: #e9dd9b;
 --cor4: #402F25;
 }
 
 *{
     margin: 0px;
-    padding: px;
+    padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
+   
 }
 
-html, body{
-    background: linear-gradient(45deg, #402F25, #BF8756);
+body{
+   background-color: #8C593B;
 }
 main{   
         position: absolute;
         width: 60vw;
-        height: 80vh;
-        margin-top: 10vh;
+        height: 75vh;
+        margin-top: 15vh;
         margin-left: 22vw;
         background-color: var(--cor3);
         text-align: center;
         border-radius: 35px;
+        box-shadow: 5px 5px 5px #311f14;
 }
 section#Login{
     
@@ -53,7 +55,6 @@ section#Login > div#img{
     top: 0%;
     width: 60vw;
     height: 37vh;
-    
     
 }
 div#form{
