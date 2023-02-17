@@ -4,7 +4,13 @@
     cor1 #8C593B
     cor2 #BF8756
 */
-
+/*
+telas pequenas: até 600px
+celular: 600px a 770px
+tablet: 768px a 992px
+Desktop: 992px a 1200px
+grandes-telas: acima de 1200px
+*/
 :root{
 --cor1: #8C593B;
 --cor2: #BF8756;
@@ -20,15 +26,17 @@
 html{
     background-color: var(--cor3);
 }
-main{
+main{   
+        position: absolute;
+        width: 70vw;
+        height: 90vh;
+        left: 16.2%;
         background-color: aqua;
-        margin: auto;
         text-align: center;
-        width: 67vw;
-        height: 40vh;
+        border-radius: 35px;
 }
 section#Login{
-    margin-top: 100%;
+    margin-top: 90%;
 }
 section#Login > div#img{
     background-color: black;
