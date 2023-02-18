@@ -13,75 +13,77 @@
     --cor4: #402F25;
 }
 html,body{
-    
+    background-repeat: no-repeat;
     background: linear-gradient(45deg, #402F25 -20%, #DF6C2B, #612400);
     height: 100vh;
 }
 main{   
     position: absolute;
-    width: 800px;
-    height: 369px;
+    width: 1199px;
+    height: 530px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: rgb(228, 195, 152);
     text-align: center;
-    border-radius: 40px 20px 20px 40px;
+    border-radius: 35px 45px 45px 35px;
     box-shadow: -10px 10px 10px rgb(59, 31, 13);
 }
 section#Login > div#img{
-    background-color:black;
+    /*background-color:black;*/
     background-image: url(../img/certo.jpg);
-    background-position: left bottom;
-    background-attachment: local;
+    background-position: left center;
+    background-attachment: fixed;
     background-repeat: no-repeat;
-    background-size: 100% 100%;
-    border-radius: 40px 0px 0px 40px;
+    background-size: cover;
+    border-radius: 0px 45px 45px 0px;
     position: absolute;
-    width: 320px;
-    height: 369px;
+    width: 585px;
+    height: 530px;
+    left: 51.256%;
     
 }
 div#form{
-    padding-top: 10px;
-    margin-left: 290px;
+    padding-top: 20px;
+    margin-left: 50px;
+    
 }
 div#form > p{
     font-family: 'Poppins', sans-serif;
-    text-align: center;
+    text-align: left;
+    font-size: 1.3em;
     padding-top: 5px;
     padding-bottom: 5px;
-    margin-left: 35px;
-    line-height: 16px;
-    width: 450px;
+    line-height: 20px;
+    width: 530px;
+    margin-right: 50px;
+    margin-bottom: 35px;
     text-shadow: 1px 1px 1px #887459;
 }
 div#form > h1{
     font-family: 'Poppins', sans-serif;
-    font-size: 38px;
-    margin-left: 20px;
+    font-size: 45px;
+    margin-right: 620px;
+    margin-bottom: 15px;
     text-shadow: 1px 1px 1px #887459;
 }
 div.info{
-    background-color: #e27508;
-    margin-left: 40px;
-    margin-right: 15px;
-    margin-top: 10px;
+    background-color: #ff8000;
+    margin-top: 15px;
     padding-top: 5px;
     padding-bottom: 5px;
-    width: 90%;
-    height: 45px;
+    width: 46%;
+    height: 55px;
     border: 1px solid #e27508;
     border-radius: 13px;
     box-shadow: -3px 2px 8px #887459;
 
 }
-
 input.npt{
     position: static;
     border-radius: 10px;
-    height: 30px;
-    width: 75%;
+    height: 40px;
+    width: 78%;
     border: 2px solid #e27508;
     padding: 5px 70px 5px 0px;
     
@@ -105,14 +107,14 @@ input.npt{
     background-color: #271911;
     color: white;
     font-family: 'Poppins', sans-serif;
-    font-size: 16px;
+    font-size: 20px;
     position: absolute;
-    width: 57.7%;
+    width: 44%;
     border-radius: 10px;
     border: 2px solid #271911;
-    height: 35px;
-    top: 79%;
-    left: 70%;
+    height: 55px;
+    top: 78%;
+    left: 26.3%;
     margin-top: 3px;
     transform: translate(-50%, -50%);
 }
@@ -120,14 +122,14 @@ input#bot2{
     box-shadow: 1px 1px 5px #110900;
     cursor: pointer;
     font-family: 'Poppins', sans-serif;
-    font-size: 16px;
+    font-size: 20px;
     position: absolute;
-    width: 57.7%;
+    width: 44%;
     border-radius: 10px;
     border: 3px solid #271911;
-    height: 35px;
+    height: 55px;
     top: 90%;
-    left: 70%;
+    left: 26.3%;
     margin-top: 3px;
     transform: translate(-50%, -50%);
 }
@@ -157,4 +159,3 @@ input#bot2{
     transition: 0.5s;
     animation-delay: 0.5s;
 }
- 
