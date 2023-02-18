@@ -103,7 +103,7 @@ input.npt{
     padding: 5px 70px 3px 0px;
     
 }
-#user{
+input#user{
    
    position: relative;
    left: 8px;
@@ -128,7 +128,7 @@ input#bot{
     border-radius: 10px;
     border: 2px solid #271911;
     height: 35px;
-    top: 86.8%;
+    top: 85%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -142,7 +142,7 @@ input#bot2{
     border-radius: 10px;
     border: 3px solid #271911;
     height: 35px;
-    top: 93%;
+    top: 91.8%;
     left: 50%;
     margin-top: 3px;
     transform: translate(-50%, -50%);
