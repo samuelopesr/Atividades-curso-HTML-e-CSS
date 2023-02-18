@@ -6,7 +6,7 @@
 */
 /*
 telas pequenas: até 600px
-celular: 600px a 770px
+celular: 600px a 768px
 tablet: 768px a 992px
 Desktop: 992px a 1200px
 grandes-telas: acima de 1200px
@@ -98,7 +98,7 @@ input.npt{
     border-radius: 10px;
     height: 30px;
     width: 58%;
-    border: 2px solid #4b2500;
+    border: 2px solid #aa5703;
     margin-left: 10px;
     padding: 5px 70px 3px 0px;
     
@@ -148,23 +148,14 @@ input#bot2{
     transform: translate(-50%, -50%);
 }
 input#bot:hover{
-    border:3px solid #4b2500;
+    border:3px solid #271911;
     color: black;
     background-color: white;
-    transition: 0.5s;
-    transform: translate(-55%, -55%);
-}
-input#bot{
-    transition: 0.5s;
-    transition-delay: 0.1s;
+   
 }
 input#bot2:hover{
+    border:3px solid #271911;
+    color: rgb(255, 255, 255);
     background-color: #271911;
-    color: white;
-    border: 1px solid #4b2500;
-    transition: 0.5s;transform: translate(-55%, -55%);
-}
-input#bot2{
-    transition: 0.5s;
-    transition-delay: 0.1s;
+   
 }
