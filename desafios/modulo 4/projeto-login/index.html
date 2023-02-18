@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
-    <link rel="stylesheet" href="estilos/mobile-first.css" media="screen and (max-width: 880px)" >
-    <link rel="stylesheet" href="estilos/telas.css" media="screen and (min-width: 881px) and (max-width: 995px)">
+    <link rel="stylesheet" href="estilos/mobile-first.css" media="screen and (max-width: 880px) and (orientation: portrait)" >
+    <link rel="stylesheet" href="estilos/telas.css" media="screen and (min-width: 881px) and (max-width: 995px) ">
    
 </head>
 <body>
@@ -19,12 +19,12 @@
                 <h1>Login</h1>
                 <p>Seja bem vindo novamente!! Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
                 <form action="acesso_confirmado.html" method="post" autocomplete="on">
-                    <div class="info" id="host">
+                    <div class="info">
                         <label for="imail"><img id="user" src="img/user.png" alt="user_img"></label>
         
                         <input class="npt" type="email" name="email" id="imail" placeholder=" Digite seu e-mail" required>
                     </div>
-                    <div class="info" id="pass">
+                    <div class="info">
                         <label for="isenha"><img id="pass" src="img/padlock.png" alt="lock_img"></label>
                         <input class="npt" type="password" name="senha" id="isenha" placeholder=" Digite sua senha" required min="8" max="30">
                     </div>
