@@ -77,28 +77,38 @@ div#form > h1{
 }
 div.info{
     background-color: var(--cor2);
-    padding-top: 5px;
-    width: 80%;
-    height: 45px;
-    margin-left: 30px;
-    border: 1px solid rgb(85, 75, 64);
+    margin: auto;
+    margin-top: 1px;
+    padding-top: 1px;
+    padding-bottom: 6px;
+    width: 95%;
+    height: 48px;
+    border: 1px solid var(--cor2);
     border-radius: 13px;
+    box-shadow: -2px 1px 5px #6d684e;
 
 }
 div#pass{
     margin-top: 10px;
 }
-div#host{
-    margin-top: 10px;
-}
+
 form{
     padding-top: 10px;
 }
 input.npt{
     border-radius: 10px;
-    height: 45px;
+    height: 40px;
+    width: 52%;
+    border: 2px solid var(--cor2);
     margin-left: 30px;
+    padding: 5px 70px 3px 0px;
+    
 }
 .material-symbols-outlined{
+    position: sticky;
+    
+    color: rgb(0, 0, 0);
+}
+input.bot{
     
 }
