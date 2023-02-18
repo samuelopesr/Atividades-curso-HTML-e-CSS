@@ -40,13 +40,11 @@ main{
         transform: translate(-50%, -50%);
         background-color: rgb(248, 213, 167);
         text-align: center;
-        border-radius: 35px;
+        border-radius: 35px 35px 20px 20px;
         box-shadow: 10px 10px 10px rgb(59, 31, 13);
 }
-section#Login{
-   
- 
-}
+
+
 section#Login > div#img{
     background-color:black;
     background-image: url(../img/certo.jpg);
@@ -76,38 +74,62 @@ div#form > h1{
     font-size: 32px;
 }
 div.info{
-    background-color: var(--cor2);
+    background-color: #4b2500;
     margin: auto;
-    margin-top: 1px;
-    padding-top: 1px;
-    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-bottom: 2px;
     width: 95%;
     height: 48px;
-    border: 1px solid var(--cor2);
+    border: 1px solid #4b2500;
     border-radius: 13px;
     box-shadow: -2px 1px 5px #6d684e;
 
 }
 div#pass{
-    margin-top: 10px;
+    margin-left: 3px;
 }
 
 form{
     padding-top: 10px;
 }
 input.npt{
+    position: static;
     border-radius: 10px;
-    height: 40px;
+    height: 30px;
     width: 58%;
-    border: 2px solid var(--cor2);
+    border: 2px solid #4b2500;
     margin-left: 10px;
     padding: 5px 70px 3px 0px;
     
 }
-.material-symbols-outlined{
-    margin: auto;
-       
+#user{
+   
+   position: relative;
+   left: 8px;
+   top: 5px;
+   
 }
-input.bot{
+#pass{
     
+    position: relative;
+    left: 5px;
+    top: 6px;
+}
+input#bot{
+    position: absolute;
+    width: 280px;
+    border-radius: 10px;
+    height: 45px;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+input#bot2{
+    position: absolute;
+    width: 280px;
+    border-radius: 10px;
+    height: 45px;
+    top: 93%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
