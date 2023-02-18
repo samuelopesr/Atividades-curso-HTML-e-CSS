@@ -74,13 +74,14 @@ div#form > h1{
     font-size: 32px;
 }
 div.info{
-    background-color: #4b2500;
+    background-color: #e27508;
     margin: auto;
+    margin-top: 5px;
     padding-top: 5px;
     padding-bottom: 2px;
     width: 95%;
-    height: 48px;
-    border: 1px solid #4b2500;
+    height: 45px;
+    border: 1px solid #cf6902;
     border-radius: 13px;
     box-shadow: -2px 1px 5px #6d684e;
 
@@ -116,20 +117,54 @@ input.npt{
     top: 6px;
 }
 input#bot{
+    box-shadow: 1px 1px 5px #110900;
+    cursor: pointer;
+    background-color: #271911;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
     position: absolute;
     width: 280px;
     border-radius: 10px;
-    height: 45px;
-    top: 85%;
+    border: 2px solid #271911;
+    height: 35px;
+    top: 86.8%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 input#bot2{
+    box-shadow: 1px 1px 5px #110900;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
     position: absolute;
     width: 280px;
     border-radius: 10px;
-    height: 45px;
+    border: 3px solid #271911;
+    height: 35px;
     top: 93%;
     left: 50%;
+    margin-top: 3px;
     transform: translate(-50%, -50%);
+}
+input#bot:hover{
+    border:3px solid #4b2500;
+    color: black;
+    background-color: white;
+    transition: 0.5s;
+    transform: translate(-55%, -55%);
+}
+input#bot{
+    transition: 0.5s;
+    transition-delay: 0.1s;
+}
+input#bot2:hover{
+    background-color: #271911;
+    color: white;
+    border: 1px solid #4b2500;
+    transition: 0.5s;transform: translate(-55%, -55%);
+}
+input#bot2{
+    transition: 0.5s;
+    transition-delay: 0.1s;
 }
