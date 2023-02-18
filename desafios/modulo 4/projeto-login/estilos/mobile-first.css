@@ -80,7 +80,7 @@ div.info{
     margin: auto;
     margin-top: 1px;
     padding-top: 1px;
-    padding-bottom: 6px;
+    padding-bottom: 5px;
     width: 95%;
     height: 48px;
     border: 1px solid var(--cor2);
@@ -98,16 +98,15 @@ form{
 input.npt{
     border-radius: 10px;
     height: 40px;
-    width: 52%;
+    width: 58%;
     border: 2px solid var(--cor2);
-    margin-left: 30px;
+    margin-left: 10px;
     padding: 5px 70px 3px 0px;
     
 }
 .material-symbols-outlined{
-    position: sticky;
-    
-    color: rgb(0, 0, 0);
+    margin: auto;
+       
 }
 input.bot{
     
