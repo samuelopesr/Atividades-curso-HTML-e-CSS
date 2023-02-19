@@ -30,6 +30,8 @@ grandes-telas: acima de 1200px
 
 html,body{
    background-color: #974c29;
+   height: 100vh;
+   width: 100vw;
 }
 main{   
         position: absolute;
