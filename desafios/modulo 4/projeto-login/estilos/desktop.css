@@ -32,7 +32,7 @@ main{
 section#Login > div#img{
     /*background-color:black;*/
     background-image: url(../img/certo.jpg);
-    background-position: left center;
+    background-position: left bottom;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
