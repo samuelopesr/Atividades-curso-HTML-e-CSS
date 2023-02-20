@@ -12,18 +12,62 @@
         float: left;
         width: 35%;
         height: 100%;
-        background-position: left bottom;
+     
     
     }
     div#formulario > h1{
         font-size: 2em;
     }
     div#formulario > p{
-        font-size: 1.2em;
-        margin-left: 38%;
+        width: 100%;
+        font-size: 1.2em; 
+        margin-left: 36%;
+        line-height: 18px;
     }
-  
-}
+    form > input[type=submit]{
+        width: 56vw;
+        height: 60px;
+        margin-left: 36%;
+        margin-bottom: 10px;
+        box-shadow: 3px 3px 4px black;
+        border: 2px solid black;
+        transition: .3s;
+        font-size: 1.3em;
+        
+        
+    }
+    form > input[type=submit]:hover{
+        transform: translate(-5px, -5px);
+        transition: .3s;
+        
+        
+    }
+    form > a#button{
+       width: 56vw;
+       height: 60px;
+       padding-top: 15px;
+       margin-left: 36%;
+       box-shadow: 3px 3px 4px black;
+       transition: .3s;
+       font-size: 1.2em;
+    }
+    form > a#button:hover{
+        transform: translate(-5px, -5px);
+        transition: .3s;
+     }
+     form > div.campo{
+        width: 64%;
+        height: 60px;
+        margin-left: 36%;
+        margin-top: 10px;
+     }
+     div.campo > input{
+        width: calc(100% - 7%);
+        margin-top: 4px;
+     }
+    
+}   
+
 @media screen and (min-width: 992px) {
     body{
     
@@ -47,6 +91,32 @@
     }
     div#formulario > p{
         font-size: 1.2em;
+        line-height: 18px;
+    }
+    form > input[type=submit]{
+        height: 70px;
+        font-size: 1.5em;
+        transition: .3s;
+    }
+    form > input[type=submit]:hover{
+        transform: translate(-5px, -5px);
+        transition: .3s; 
+    }
+    form > a#button{
+        height: 70px;
+        padding-top: 15px;
+        font-size: 1.5em;
+        transition: .3s;
+    }
+    form > a#button:hover{
+        transition: .3s;
+        transform: translate(-5px, -5px);
+    }
+    form > div.campo{ 
+        height: 60px;
+    }
+    div.campo > input{
+        margin-top: 4px;
     }
     
 }
